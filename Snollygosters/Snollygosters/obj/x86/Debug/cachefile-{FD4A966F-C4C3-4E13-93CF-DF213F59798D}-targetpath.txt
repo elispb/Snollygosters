@@ -1,0 +1,6 @@
+Content\Skier.xnb
+Content\Cheese.xnb
+Content\WhiteBall.xnb
+Content\CashSprite.xnb
+Content\Taxsprite.xnb
+Content\MessageFont.xnb

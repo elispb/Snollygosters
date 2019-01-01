@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Skier.png</Source>
+      <Name>Skier</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Skier.xnb</Output>
+      <Time>2016-04-15T17:59:03.9457302+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Cheese.png</Source>
+      <Name>Cheese</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Cheese.xnb</Output>
+      <Time>2016-04-15T19:21:15.4908174+01:00</Time>
+    </Item>
+    <Item>
+      <Source>WhiteBall.png</Source>
+      <Name>WhiteBall</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\WhiteBall.xnb</Output>
+      <Time>2016-04-15T19:22:28.4063071+01:00</Time>
+    </Item>
+    <Item>
+      <Source>CashSprite.png</Source>
+      <Name>CashSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\CashSprite.xnb</Output>
+      <Time>2016-04-15T20:49:34.7210641+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Taxsprite.png</Source>
+      <Name>Taxsprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Taxsprite.xnb</Output>
+      <Time>2016-04-15T21:36:42.0279821+01:00</Time>
+    </Item>
+    <Item>
+      <Source>MessageFont.spritefont</Source>
+      <Name>MessageFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\MessageFont.xnb</Output>
+      <Time>2016-04-15T21:36:41.9811125+01:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{FD4A966F-C4C3-4E13-93CF-DF213F59798D}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\SnollygostersContent\</RootDirectory>
+      <LoggerRootDirectory>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\</LoggerRootDirectory>
+      <IntermediateDirectory>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T17:22:30+01:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2015-01-07T02:26:51.683489+00:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

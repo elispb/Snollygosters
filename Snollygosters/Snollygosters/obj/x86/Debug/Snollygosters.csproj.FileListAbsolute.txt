@@ -1,0 +1,12 @@
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Skier.xnb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Snollygosters.exe
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Snollygosters.pdb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\obj\x86\Debug\Snollygosters.csprojResolveAssemblyReference.cache
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\obj\x86\Debug\Snollygosters.exe
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\obj\x86\Debug\Snollygosters.pdb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Cheese.xnb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\WhiteBall.xnb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\CashSprite.xnb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\Taxsprite.xnb
+\\data.adir.hull.ac.uk\home4\490\490680\visual studio 2013\Projects\Snollygosters\Snollygosters\Snollygosters\bin\x86\Debug\Content\MessageFont.xnb
