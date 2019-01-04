@@ -258,8 +258,6 @@ namespace Snollygosters
             }
 
 
-
-
             if (keystate.IsKeyDown(Keys.A) && avatarRectangle.Left > 1)
             {
                 avatarRectangle.X -= avatarXSpeed;
