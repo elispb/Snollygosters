@@ -54,8 +54,10 @@ namespace Snollygosters_Universal_App
         Rectangle backgroundRectangle;
 
         //Window size
-        int windowHeight = 800;
-        int windowWidth = 600;
+        //int windowHeight = 1080;
+        //int windowWidth = 900;
+        int windowHeight = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Height;
+        int windowWidth = GraphicsAdapter.DefaultAdapter.CurrentDisplayMode.Width;
 
         MouseState currentMouseState;
         MouseState previousMouseState;
@@ -63,9 +65,9 @@ namespace Snollygosters_Universal_App
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            graphics.IsFullScreen = false;
-            graphics.PreferredBackBufferHeight = windowHeight;
-            graphics.PreferredBackBufferWidth = windowWidth;
+            graphics.IsFullScreen = true;
+            //graphics.PreferredBackBufferHeight = windowHeight;
+            //graphics.PreferredBackBufferWidth = windowWidth;
             Content.RootDirectory = "Content";
         }
 
@@ -110,12 +112,12 @@ namespace Snollygosters_Universal_App
                 );
 
             avatarRectangle = new Rectangle(
-                Window.ClientBounds.Width / 2, windowHeight - (180) - (windowHeight / 20), // sets sprite to start its height + 1 20th window height from the bottom of the screen
+                Window.ClientBounds.Width / 2, windowHeight - (180) - (windowHeight / 10), // sets sprite to start visivble on the screen floor. Works for fullscreen
               120,
               180);
 
-            startButtonRectangle = new Rectangle((windowWidth / 2) - 100, (windowHeight / 2) - 200, 200, 200);
-            highscoreButtonRectangle = new Rectangle((windowWidth / 2) - 100, (windowHeight / 2) - 100, 200, 200);
+            startButtonRectangle = new Rectangle(((windowWidth / 2) -100), ((windowHeight / 2) -100), 200, 200);
+            highscoreButtonRectangle = new Rectangle(((windowWidth / 2) - 100), ((windowHeight / 2) +100), 200, 200);
         }
 
         protected int randomNumber(int inclusiveLowerbound, int exclusiveUpperbound)
@@ -211,12 +213,12 @@ namespace Snollygosters_Universal_App
 
             if (previousMouseState.LeftButton == ButtonState.Pressed && currentMouseState.LeftButton == ButtonState.Pressed)
             {
-                if (state.X > startButtonRectangle.Left && state.X < startButtonRectangle.Right && state.Y < startButtonRectangle.Bottom && state.Y > startButtonRectangle.Top)
+                if(startButtonRectangle.Contains(position))
                 {
                     gameState = gameStateEnum.gameRunning;
                 }
 
-                if (state.X > highscoreButtonRectangle.Left && state.X < highscoreButtonRectangle.Right && state.Y < highscoreButtonRectangle.Bottom && state.Y > highscoreButtonRectangle.Top)
+                if (highscoreButtonRectangle.Contains(position))
                 {
                     gameState = gameStateEnum.highScore;
                 }
